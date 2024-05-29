@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         songList.add(Song("SpecialZ - King Gnu", R.raw.specialz))
         songList.add(Song("Father Stretch My Hands Pt1 - Kanye West", R.raw.father))
         songList.add(Song("Earfquake - Tyler The Creator", R.raw.earfquake))
+        songList.add(Song("Carnival - Kanye West & TY Dolla Sign", R.raw.carnival))
 
         songAdapter = SongAdapter(this, songList)
         recyclerView.adapter = songAdapter
